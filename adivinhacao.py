@@ -14,8 +14,8 @@ def jogar():
 
     print('Qual nivel de dificuldade?')
     print('(1) - Facil\n'
-          f'(2) - Médio\n'
-          f'(3) - Dificil')
+          '(2) - Médio\n'
+          '(3) - Dificil')
     nivel = int(input('Define o nivel: '))
     print(separacao)
 
@@ -56,5 +56,5 @@ def jogar():
 
     print('Fim do jogo')
 
-if(__name__ == '__main__'):
+if __name__ == '__main__':
     jogar()
